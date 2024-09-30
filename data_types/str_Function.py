@@ -77,3 +77,16 @@ print("Type of variable a is :", type(a1))
 
 # value of variable a1 is : col1,col2,col3,col4,col5
 # Type of variable a1 is : <class 'str'>
+print('*' * 100)
+
+# format Function
+
+column = ['col1', 'col2', 'col3', 'col4', 'col5']
+
+coln = ','.join(column)
+
+sql = 'select {colun} from tablename'.format(colun=column)
+
+print(sql)
+
+# select col1,col2,col3,col4,col5 from tablename

@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="265f722a-1119-4835-9579-fe16c8d3eb4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/etl_automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_types/complex_datatype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_types/day2_str_int.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_types/str_Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_types/str_datatype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="265f722a-1119-4835-9579-fe16c8d3eb4b" name="Changes" comment="commet">
+      <change afterPath="$PROJECT_DIR$/Slice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slice/string_slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_types/str_Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_types/str_Function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,7 @@
     "Python.day2_str_int.executor": "Run",
     "Python.str_Function.executor": "Run",
     "Python.str_datatype.executor": "Run",
+    "Python.string_slicing.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -59,7 +51,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.str_Function">
+  <component name="RunManager" selected="Python.string_slicing">
     <configuration name="bool_data_type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="etl_automation" />
       <option name="ENV_FILES" value="" />
@@ -96,28 +88,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_types/complex_datatype.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day2_str_int" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="etl_automation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_types" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_types/day2_str_int.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,13 +162,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="string_slicing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="etl_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Slice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Slice/string_slicing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.string_slicing" />
         <item itemvalue="Python.str_Function" />
         <item itemvalue="Python.str_datatype" />
         <item itemvalue="Python.complex_datatype" />
         <item itemvalue="Python.bool_data_type" />
-        <item itemvalue="Python.day2_str_int" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +210,28 @@
       <option name="presentableId" value="Default" />
       <updated>1727227761579</updated>
     </task>
+    <task id="LOCAL-00001" summary="commet">
+      <option name="closed" value="true" />
+      <created>1727405868172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727405868172</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commet">
+      <option name="closed" value="true" />
+      <created>1727405894354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727405894354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commet" />
+    <option name="LAST_COMMIT_MESSAGE" value="commet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
